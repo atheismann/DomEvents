@@ -5,6 +5,5 @@ btn.addEventListener('click', function(evt){
     const inp = document.querySelector('input');
     li.textContent = inp.value
     document.querySelector('ul').appendChild(li);
-    inp.value = "";
     console.log(li)
 });
